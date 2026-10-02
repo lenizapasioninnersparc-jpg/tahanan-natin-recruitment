@@ -1,0 +1,1487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Join Tahanan Natin's real estate project selling team in Cavite. Explore a flexible commission-based opportunity, training, support, and the potential to build an additional income stream through real estate.">
+  <meta name="theme-color" content="#0F1D3A">
+  <title>Join Tahanan Natin | Cavite Real Estate Recruitment</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --navy:#0F1D3A;
+      --blue:#1A2D5A;
+      --blue2:#2A4070;
+      --gold:#D4A843;
+      --gold2:#E8C96A;
+      --cream:#F8F4ED;
+      --white:#fff;
+      --ink:#172033;
+      --muted:#68758A;
+      --line:rgba(15,29,58,.10);
+      --shadow:0 24px 70px rgba(15,29,58,.15);
+      --radius:22px;
+      --max:1160px;
+    }
+
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{
+      font-family:Poppins,Arial,sans-serif;
+      color:var(--ink);
+      background:var(--cream);
+      line-height:1.6;
+      overflow-x:hidden;
+    }
+    img{display:block;max-width:100%}
+    a{text-decoration:none;color:inherit}
+    button,input,select{font:inherit}
+    button{cursor:pointer}
+    .wrap{width:min(var(--max),calc(100% - 40px));margin:auto}
+    .serif{font-family:"Playfair Display",serif}
+    .eyebrow{
+      display:inline-flex;align-items:center;gap:10px;
+      color:var(--gold);font-size:.72rem;font-weight:800;
+      letter-spacing:.18em;text-transform:uppercase;
+    }
+    .eyebrow:before{content:"";width:30px;height:1px;background:currentColor}
+    h1,h2,h3{font-family:"Playfair Display",serif;line-height:1.08}
+    h2{font-size:clamp(2rem,4.5vw,3.45rem)}
+    p{color:var(--muted)}
+    .section{padding:100px 0}
+    .section-head{max-width:760px;margin-bottom:50px}
+    .section-head.center{margin-left:auto;margin-right:auto;text-align:center}
+    .section-head.center .eyebrow{justify-content:center}
+    .section-head h2{color:var(--navy);margin:14px 0 16px}
+    .section-head p{font-size:1rem;line-height:1.85}
+
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;gap:10px;
+      min-height:52px;padding:14px 25px;border-radius:999px;
+      font-weight:700;border:1px solid transparent;transition:.25s ease;
+    }
+    .btn-gold{background:var(--gold);color:var(--navy);box-shadow:0 12px 30px rgba(212,168,67,.28)}
+    .btn-gold:hover{background:var(--gold2);transform:translateY(-3px);box-shadow:0 16px 35px rgba(212,168,67,.35)}
+    .btn-outline{border-color:rgba(255,255,255,.28);color:#fff;background:transparent}
+    .btn-outline:hover{border-color:var(--gold);color:var(--gold2)}
+    .btn-dark{background:var(--navy);color:#fff}
+    .btn-dark:hover{transform:translateY(-3px);background:var(--blue)}
+
+    /* NAV */
+    .nav{
+      position:fixed;z-index:1000;top:0;left:0;right:0;
+      background:rgba(15,29,58,.94);backdrop-filter:blur(14px);
+      border-bottom:1px solid rgba(255,255,255,.07);
+    }
+    .nav-inner{height:104px;display:flex;align-items:center;justify-content:space-between;gap:25px}
+    .brand{display:flex;align-items:center;gap:12px;color:#fff;font-weight:700}
+    .brand img{width:84px;height:84px;object-fit:contain}
+    .brand small{display:block;color:rgba(255,255,255,.48);font-size:.63rem;font-weight:500;letter-spacing:.08em}
+    .nav-links{display:flex;align-items:center;gap:25px;color:rgba(255,255,255,.78);font-size:.78rem;font-weight:600}
+    .nav-links a:hover{color:var(--gold2)}
+    .nav-cta{padding:10px 18px;border-radius:99px;background:var(--gold);color:var(--navy)!important}
+
+    /* HERO */
+    .hero{
+      position:relative;min-height:850px;padding:150px 0 100px;
+      display:flex;align-items:center;color:#fff;overflow:hidden;
+      background:
+        radial-gradient(700px 500px at 80% 15%,rgba(212,168,67,.18),transparent 65%),
+        radial-gradient(600px 500px at 10% 90%,rgba(42,64,112,.65),transparent 70%),
+        linear-gradient(135deg,#0A142A,#1A2D5A 55%,#223A68);
+    }
+    .hero:before{
+      content:"";position:absolute;inset:0;opacity:.32;
+      background-image:radial-gradient(rgba(255,255,255,.10) 1px,transparent 1px);
+      background-size:26px 26px;
+      mask-image:linear-gradient(to bottom,black,transparent 90%);
+    }
+    .hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.05fr .95fr;gap:70px;align-items:center}
+    .hero-copy{max-width:670px}
+    .hero h1{font-size:clamp(3rem,6.3vw,5.35rem);letter-spacing:-.025em;margin:20px 0}
+    .hero h1 em{color:var(--gold2);font-style:italic}
+    .hero-lead{max-width:610px;color:#CBD4E4;font-size:1.12rem;line-height:1.85}
+    .hero-note{
+      margin:24px 0 30px;padding:15px 18px;border-left:2px solid var(--gold);
+      color:#EEF2F8;background:rgba(255,255,255,.045);max-width:590px;font-size:.9rem
+    }
+    .hero-actions{display:flex;gap:13px;flex-wrap:wrap}
+    .hero-proof{display:flex;gap:30px;flex-wrap:wrap;margin-top:42px}
+    .hero-proof strong{display:block;color:var(--gold2);font-family:"Playfair Display",serif;font-size:1.55rem}
+    .hero-proof span{display:block;color:#9EABC2;font-size:.72rem;letter-spacing:.04em}
+    .hero-visual{position:relative}
+    .hero-photo{
+      position:relative;max-width:470px;margin-left:auto;aspect-ratio:4/5;
+      border-radius:28px;overflow:hidden;border:1px solid rgba(232,201,106,.32);
+      box-shadow:0 35px 90px rgba(0,0,0,.35);
+      background:#162849;
+    }
+    .hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center top}
+    .hero-photo:after{
+      content:"";position:absolute;inset:0;
+      background:linear-gradient(180deg,transparent 50%,rgba(8,18,39,.8));
+    }
+    .hero-badge{
+      position:absolute;z-index:3;left:-30px;bottom:35px;
+      background:#fff;color:var(--navy);padding:18px 20px;border-radius:17px;
+      box-shadow:0 18px 45px rgba(0,0,0,.25);max-width:235px;
+    }
+    .hero-badge b{display:block;font-family:"Playfair Display",serif;font-size:1.1rem}
+    .hero-badge span{font-size:.72rem;color:var(--muted)}
+    .scroll-cue{position:absolute;bottom:25px;left:50%;transform:translateX(-50%);font-size:.65rem;letter-spacing:.16em;color:#8190AA}
+
+    /* AUDIENCE */
+    .audience{background:#fff}
+    .audience-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}
+    .audience-card{padding:28px 23px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(180deg,#fff,#fbfaf7);transition:.25s}
+    .audience-card:hover{transform:translateY(-5px);box-shadow:var(--shadow)}
+    .audience-icon{font-size:1.8rem;margin-bottom:17px}
+    .audience-card h3{font-size:1.25rem;color:var(--navy);margin-bottom:8px}
+    .audience-card p{font-size:.83rem;line-height:1.7}
+
+    /* PAIN */
+    .pain{background:var(--cream)}
+    .pain-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+    .pain-card{
+      min-height:235px;position:relative;overflow:hidden;border-radius:22px;
+      display:flex;align-items:flex-end;padding:27px;color:#fff;
+      background:#17294D;
+      isolation:isolate;
+    }
+    .pain-card:before{content:"";position:absolute;inset:0;z-index:-2;background:linear-gradient(135deg,#17294D,#071226)}
+    .pain-card:after{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(circle at 80% 20%,rgba(212,168,67,.25),transparent 42%)}
+    .pain-card:nth-child(3n){background:linear-gradient(135deg,#283E6B,#0F1D3A)}
+    .pain-num{position:absolute;right:20px;top:15px;color:rgba(232,201,106,.18);font-family:"Playfair Display",serif;font-size:4rem;font-weight:700}
+    .pain-card h3{font-size:1.5rem;max-width:520px}
+    .pain-card p{color:#CBD4E4;font-size:.82rem;margin-top:8px;max-width:540px}
+
+    /* BRIDGE */
+    .bridge{padding:68px 0;background:var(--navy);text-align:center;color:#fff}
+    .bridge p{max-width:720px;margin:12px auto 0;color:rgba(255,255,255,.7);font-size:1rem}
+    .bridge h2{color:#fff;font-size:clamp(2rem,4vw,3.3rem)}
+    .bridge em{color:var(--gold2)}
+
+    /* OPPORTUNITY */
+    .opportunity{background:#fff}
+    .op-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:center}
+    .op-image{position:relative}
+    .op-image img{width:100%;border-radius:25px;max-height:600px;object-fit:cover;box-shadow:var(--shadow)}
+    .op-image-tag{position:absolute;right:-18px;bottom:25px;background:var(--gold);color:var(--navy);padding:14px 18px;border-radius:14px;font-size:.75rem;font-weight:800;box-shadow:0 12px 30px rgba(0,0,0,.15)}
+    .benefit-list{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:28px}
+    .benefit{padding:21px;border:1px solid var(--line);border-radius:16px;background:#fff}
+    .benefit strong{display:block;color:var(--navy);margin-bottom:5px;font-size:.93rem}
+    .benefit span{display:block;color:var(--muted);font-size:.78rem;line-height:1.6}
+    .small-disclaimer{font-size:.72rem;color:#8A93A1;margin-top:18px;line-height:1.6}
+
+    /* COMMISSION */
+    .commission{background:var(--navy);color:#fff}
+    .commission-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px}
+    .commission-card{padding:36px;border:1px solid rgba(255,255,255,.10);border-radius:22px;background:rgba(255,255,255,.045)}
+    .commission-card.gold{background:linear-gradient(145deg,rgba(212,168,67,.15),rgba(255,255,255,.035));border-color:rgba(212,168,67,.25)}
+    .commission-card h3{color:#fff;font-size:1.65rem;margin:12px 0}
+    .commission-card p{color:#B7C2D6;font-size:.9rem;line-height:1.8}
+    .commission-card ul{list-style:none;margin-top:20px;display:grid;gap:11px}
+    .commission-card li{color:#DDE4F0;font-size:.83rem;padding-left:25px;position:relative}
+    .commission-card li:before{content:"✓";position:absolute;left:0;color:var(--gold2);font-weight:800}
+    .commission-warning{margin-top:20px;padding:15px 18px;border-left:2px solid var(--gold);color:#D8DFEB;font-size:.78rem;background:rgba(255,255,255,.035)}
+
+    /* PROOF */
+    .proof{background:var(--cream)}
+    .proof-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:35px;align-items:center}
+    .proof-photo{border-radius:24px;overflow:hidden;box-shadow:var(--shadow);background:#eee}
+    .proof-photo img{display:block;width:100%;height:auto}
+    .proof-stack{display:grid;gap:15px}
+    .proof-card{background:#fff;border:1px solid var(--line);padding:25px;border-radius:18px}
+    .proof-card strong{display:block;color:var(--navy);font-family:"Playfair Display",serif;font-size:1.4rem}
+    .proof-card p{font-size:.8rem;margin-top:5px}
+    .proof-note{padding:20px;border-radius:18px;background:var(--blue);color:#fff}
+    .proof-note p{color:#C8D2E3;font-size:.82rem}
+
+    /* STEPS */
+    .steps{background:#fff}
+    .step-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}
+    .step{position:relative;padding:30px 22px;border-radius:19px;background:var(--cream);border:1px solid var(--line)}
+    .step-no{width:45px;height:45px;border-radius:50%;display:grid;place-items:center;background:var(--gold);color:var(--navy);font-family:"Playfair Display",serif;font-weight:800;margin-bottom:20px}
+    .step h3{font-size:1.2rem;color:var(--navy);margin-bottom:9px}
+    .step p{font-size:.79rem}
+
+    /* REWARDS */
+    .rewards{background:linear-gradient(135deg,#F8F4ED,#F2EADB)}
+    .reward-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .reward-card{background:#fff;border-radius:20px;overflow:hidden;border:1px solid rgba(15,29,58,.08);box-shadow:0 8px 25px rgba(15,29,58,.06)}
+    .reward-card img{width:100%;height:225px;object-fit:cover}
+    .reward-card div{padding:22px}
+    .reward-card h3{font-size:1.2rem;color:var(--navy);margin-bottom:6px}
+    .reward-card p{font-size:.78rem}
+    .reward-foot{margin-top:22px;text-align:center;color:#7A8493;font-size:.73rem}
+
+    /* QUALIFICATION */
+    .qualify{background:var(--navy);padding:95px 0;color:#fff}
+    .qualify-box{max-width:930px;margin:auto;text-align:center}
+    .qualify h2{color:#fff;margin:14px auto}
+    .qualify h2 em{color:var(--gold2)}
+    .qualify p{color:#BCC7DA;max-width:690px;margin:0 auto 28px}
+    .qualify-pills{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin:25px 0 32px}
+    .pill{padding:9px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.045);font-size:.72rem;color:#DCE3EE}
+
+    /* FOOTER */
+    footer{background:#091329;color:#7E8CA6;padding:55px 0 25px}
+    .foot-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:40px;padding-bottom:35px;border-bottom:1px solid rgba(255,255,255,.08)}
+    .foot-brand{color:#fff;font-size:1.05rem;font-weight:700}
+    .foot-brand img{width:62px;margin-bottom:13px}
+    footer p{font-size:.77rem;max-width:330px;color:#7E8CA6}
+    footer h4{font-size:.78rem;color:#fff;margin-bottom:12px}
+    footer a{display:block;font-size:.76rem;margin-bottom:8px;color:#7E8CA6}
+    footer a:hover{color:var(--gold2)}
+    .copyright{padding-top:22px;font-size:.68rem;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+
+    /* QUALIFICATION POPUP — dark inquiry-style multi-step */
+    .modal{position:fixed;inset:0;z-index:5000;background:rgba(5,12,27,.82);backdrop-filter:blur(10px);display:none;align-items:center;justify-content:center;padding:20px;overflow-y:auto}
+    .modal.open{display:flex}
+    .modal-card{width:min(720px,100%);max-height:92vh;overflow:auto;background:linear-gradient(145deg,#0F1D3A 0%,#172A52 58%,#1A2D5A 100%);border:1px solid rgba(212,168,67,.30);border-radius:26px;box-shadow:0 30px 90px rgba(0,0,0,.58);padding:38px 42px 30px;position:relative;color:#fff}
+    .modal-card::-webkit-scrollbar{width:6px}.modal-card::-webkit-scrollbar-thumb{background:var(--gold);border-radius:10px}
+    .modal-top{display:block;text-align:center;margin-bottom:20px;padding:0 28px}
+    .modal-top .eyebrow{color:var(--gold2);letter-spacing:.14em}
+    .modal-top h2{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,3vw,2.5rem);color:#fff;margin:6px 0 7px;line-height:1.12}
+    .modal-top h2 em{color:var(--gold2)}
+    .modal-top p{color:#B9C4DA;font-size:.88rem;line-height:1.6;margin:0}
+    .close{position:absolute;right:18px;top:16px;border:1px solid rgba(255,255,255,.13);background:rgba(255,255,255,.06);color:rgba(255,255,255,.65);width:40px;height:40px;border-radius:50%;font-size:1.35rem;cursor:pointer;transition:.2s;line-height:1}
+    .close:hover{color:#fff;border-color:var(--gold);transform:rotate(90deg)}
+    .qualification-steps{display:flex;justify-content:center;gap:9px;margin:0 0 25px}
+    .qualification-step-dot{width:32px;height:32px;flex:0 0 32px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);color:#AAB6CC;font-size:.72rem;font-weight:700;position:relative}
+    .qualification-step-dot:not(:last-child)::after{content:'';position:absolute;left:100%;top:50%;width:9px;height:1px;background:rgba(255,255,255,.13)}
+    .qualification-step-dot.active{background:var(--gold);border-color:var(--gold);color:var(--primary-dark)}
+    .qualification-step-dot.done{background:var(--gold-dark);border-color:var(--gold-dark);color:#fff}
+    .qualification-step{display:none}.qualification-step.active{display:block}
+    .qualification-step-label{color:var(--gold2);font-size:.69rem;text-transform:uppercase;letter-spacing:.12em;font-weight:700}
+    .qualification-step h3{color:#fff;font-size:1.22rem;margin:5px 0 6px}
+    .qualification-step>p{color:#B9C4DA;font-size:.85rem;line-height:1.6;margin:0 0 17px}
+    .qualification-options{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+    .qualification-field textarea{width:100%;box-sizing:border-box;resize:vertical;min-height:110px;padding:12px 13px;border:1px solid rgba(255,255,255,.13);border-radius:12px;background:rgba(255,255,255,.045);color:#fff;font:inherit;line-height:1.5}.qualification-field textarea::placeholder{color:#8E9AB1}.qualification-field textarea:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 3px rgba(216,169,74,.12)}
+    .qualification-option{display:flex;align-items:center;justify-content:center;min-height:54px;padding:11px 13px;border:1px solid rgba(255,255,255,.13);border-radius:12px;background:rgba(255,255,255,.045);color:#E9EDF5;cursor:pointer;transition:.2s;text-align:center;font-size:.82rem;font-weight:500;line-height:1.35}
+    .qualification-option:hover{border-color:rgba(212,168,67,.48);background:rgba(212,168,67,.07)}
+    .qualification-option.selected{border-color:var(--gold);background:rgba(212,168,67,.12);color:var(--gold2);box-shadow:0 0 0 1px rgba(212,168,67,.08)}
+    .qualification-option input{display:none}
+    /* Redesigned qualification selectors */
+    .qualification-choice-field>label,.qualification-choice-section>label{display:block;color:#fff;font-size:.81rem;font-weight:600;margin-bottom:8px}
+    .qualification-choice-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+    .qualification-choice-card{position:relative;display:flex;align-items:center;gap:10px;min-height:58px;padding:9px 11px;border:1px solid rgba(255,255,255,.13);border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.035));color:#E9EDF5;cursor:pointer;transition:transform .18s ease,border-color .18s ease,background .18s ease,box-shadow .18s ease;text-align:left}
+    .qualification-choice-card:hover{transform:translateY(-1px);border-color:rgba(212,168,67,.55);background:rgba(212,168,67,.07)}
+    .qualification-choice-card.selected, .qualification-choice-card:has(input:checked){border-color:var(--gold);background:linear-gradient(135deg,rgba(212,168,67,.16),rgba(212,168,67,.07));box-shadow:0 0 0 1px rgba(212,168,67,.16),0 8px 20px rgba(0,0,0,.12)}
+    .qualification-choice-card input{position:absolute;opacity:0;pointer-events:none}
+    .qualification-choice-card .choice-icon{width:34px;height:34px;flex:0 0 34px;border-radius:10px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.08);color:var(--gold2);font-size:.9rem;font-weight:800}
+    .qualification-choice-card.selected .choice-icon, .qualification-choice-card:has(input:checked) .choice-icon{background:var(--gold);color:var(--navy)}
+    .qualification-choice-card span:last-child{display:flex;flex-direction:column;min-width:0}
+    .qualification-choice-card b{font-size:.75rem;line-height:1.2;color:#fff;font-weight:700}
+    .qualification-choice-card small{font-size:.64rem;line-height:1.3;color:#9FAEC7;margin-top:2px;white-space:normal}
+    .qualification-choice-card.compact{min-height:54px;padding:8px 10px}
+    .qualification-choice-card.compact .choice-icon{width:30px;height:30px;flex-basis:30px;font-size:.7rem}
+    .start-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+    .hours-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+    .hours-grid .choice-icon{font-size:.68rem;letter-spacing:-.02em}
+.qualification-fields{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+    .qualification-field{margin-bottom:2px}.qualification-field.full{grid-column:1/-1}
+    .qualification-field label{display:block;color:#fff;font-size:.81rem;font-weight:600;margin-bottom:6px}.qualification-field .required{color:var(--gold2)}
+    .qualification-field input{width:100%;box-sizing:border-box;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.055);color:#fff;border-radius:11px;padding:12px 13px;font:inherit;outline:none}
+    .qualification-field input::placeholder{color:rgba(255,255,255,.32)}.qualification-field input:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(212,168,67,.08)}
+    .qualification-nav{display:flex;justify-content:space-between;gap:12px;margin-top:23px}
+    .qualification-nav button{border:0;border-radius:11px;padding:12px 24px;font-family:'Poppins',sans-serif;font-weight:600;font-size:.82rem;cursor:pointer;transition:.2s}
+    .qualification-prev{background:rgba(255,255,255,.09);color:#fff}.qualification-prev:hover{background:rgba(255,255,255,.16)}
+    .qualification-next,.qualification-submit{background:var(--gold);color:var(--primary-dark);margin-left:auto}.qualification-next:hover,.qualification-submit:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(212,168,67,.28)}
+    .qualification-submit{width:auto}
+    .qualification-note{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:10px;padding:12px 14px;margin-top:18px;color:#B9C4DA;font-size:.71rem;line-height:1.55}
+    .qualification-note strong{color:#fff}
+
+    /* RESPONSIVE */
+
+    @media(max-width:650px){
+      .situation-grid{grid-template-columns:1fr 1fr}
+      .start-grid{grid-template-columns:1fr}
+      .hours-grid{grid-template-columns:1fr 1fr}
+      .qualification-choice-card{min-height:54px}
+    }
+
+    @media(max-width:950px){
+      .nav-links a:not(.nav-cta){display:none}
+      .hero-grid,.op-grid,.proof-grid{grid-template-columns:1fr}
+      .hero{min-height:auto}
+      .hero-visual{max-width:600px;margin:auto;width:100%}
+      .hero-badge{left:15px}
+      .audience-grid{grid-template-columns:1fr 1fr}
+      .step-grid{grid-template-columns:1fr 1fr}
+      .reward-grid{grid-template-columns:1fr 1fr}
+      .commission-grid{grid-template-columns:1fr}
+    }
+    @media(max-width:650px){
+      .wrap{width:min(var(--max),calc(100% - 28px))}
+      .section{padding:75px 0}
+      .nav-inner{height:88px}
+      .brand img{width:68px;height:68px;object-fit:contain}
+      .nav-partner img{height:68px;width:68px;object-fit:contain}
+      .nav-partner-slot{padding:6px 10px;font-size:.62rem}
+      .nav-cta{padding:8px 13px;font-size:.7rem}
+      .hero{padding:125px 0 75px}
+      .hero h1{font-size:clamp(2.7rem,13vw,4rem)}
+      .hero-actions .btn{width:100%}
+      .hero-proof{gap:20px}
+      .hero-badge{position:relative;left:auto;bottom:auto;margin:-30px 12px 0;max-width:none}
+      .audience-grid,.pain-grid,.benefit-list,.step-grid,.reward-grid,.foot-grid{grid-template-columns:1fr}
+      .pain-card{min-height:210px}
+      .commission-card{padding:26px}
+      .form-grid{grid-template-columns:1fr}
+      .field.full{grid-column:auto}
+      .modal-card{padding:30px 18px 22px;border-radius:22px}
+      .modal-top{padding:0 18px}
+      .qualification-options{grid-template-columns:1fr}
+      .qualification-fields{grid-template-columns:1fr}
+      .qualification-field.full{grid-column:auto}
+      .qualification-nav button{padding:12px 18px}
+      .qualification-step-dot{width:29px;height:29px;font-size:.68rem}
+      .qualification-step-dot:not(:last-child)::after{width:6px}
+
+    }
+
+/* ===== NAVY + GOLD THEME (from reference screenshot) ===== */
+:root{
+  --gold-grad:linear-gradient(180deg,#F5DC88 0%,#D9AE48 52%,#B98A2E 100%);
+  --gold-text:linear-gradient(135deg,#F7E291,#E8C96A 40%,#C99A35);
+  --band:linear-gradient(180deg,rgba(15,31,70,.70),rgba(8,18,42,.70));
+  --card:linear-gradient(160deg,rgba(26,45,92,.78),rgba(10,21,48,.88));
+  --gold-line:rgba(232,201,106,.22);
+  --ink:#E6ECF7;
+  --muted:#9FB1D0;
+  --line:rgba(232,201,106,.20);
+  --shadow:0 24px 70px rgba(0,0,0,.45);
+}
+
+/* Page background: deep navy with gold glows */
+html,body{min-height:100%}
+body{
+  color:var(--ink);
+  background:
+    radial-gradient(900px 600px at 88% 6%, rgba(212,168,67,.17), transparent 65%),
+    radial-gradient(800px 700px at 4% 50%, rgba(42,64,112,.50), transparent 70%),
+    radial-gradient(900px 600px at 92% 92%, rgba(212,168,67,.11), transparent 65%),
+    linear-gradient(180deg,#050B1C 0%,#0A1733 48%,#060D1F 100%);
+  background-attachment:fixed;
+}
+@media(max-width:950px){body{background-attachment:scroll}}
+
+/* Scopes that must stay light-on-white */
+.hero-badge,.modal-card{--muted:#68758A;--ink:#172033}
+
+/* Nav */
+.nav{background:rgba(5,11,28,.88);border-bottom:1px solid rgba(232,201,106,.14)}
+.nav-cta{background:var(--gold-grad);box-shadow:inset 0 1px 0 rgba(255,255,255,.45),0 8px 22px rgba(212,168,67,.28)}
+
+/* Gold gradient buttons and chips */
+.btn-gold,.op-image-tag,.step-no{
+  background:var(--gold-grad);color:#0A1428;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.45),0 12px 30px rgba(212,168,67,.30);
+}
+.btn-gold:hover{background:linear-gradient(180deg,#FAE59A,#E3B952 52%,#C99B37);box-shadow:inset 0 1px 0 rgba(255,255,255,.5),0 16px 36px rgba(212,168,67,.42)}
+.btn-outline{border-color:rgba(232,201,106,.40)}
+
+/* Gold gradient on emphasised words */
+.hero h1 em,.bridge em,.qualify h2 em{
+  background:linear-gradient(135deg,#F7E28F,#E8C96A 45%,#C99A35);
+  -webkit-background-clip:text;background-clip:text;
+  -webkit-text-fill-color:transparent;color:transparent;padding-right:.08em;
+}
+.eyebrow:before{background:linear-gradient(90deg,#F2D77E,#C99A35)}
+
+/* Hero */
+.hero{
+  background:
+    radial-gradient(520px 520px at 76% 42%, rgba(232,201,106,.26), transparent 68%),
+    radial-gradient(700px 500px at 8% 85%, rgba(42,64,112,.55), transparent 70%),
+    linear-gradient(180deg,rgba(3,8,22,.55),rgba(3,8,22,0));
+}
+.hero-photo{
+  border:1px solid rgba(232,201,106,.45);
+  box-shadow:0 0 0 8px rgba(232,201,106,.06),0 0 90px rgba(212,168,67,.28),0 35px 90px rgba(0,0,0,.55);
+}
+.hero-note{background:rgba(255,255,255,.04);border-left:2px solid #E8C96A}
+.hero-proof strong{background:var(--gold-grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+
+/* Section backgrounds */
+.section{background:transparent}
+.audience,.opportunity,.steps{background:var(--band);border-top:1px solid rgba(232,201,106,.10);border-bottom:1px solid rgba(232,201,106,.10)}
+.pain,.proof,.rewards{background:transparent}
+.bridge{
+  background:
+    radial-gradient(600px 260px at 50% 0%, rgba(212,168,67,.20), transparent 70%),
+    linear-gradient(135deg,rgba(26,45,90,.75),rgba(7,16,38,.85));
+  border-top:1px solid var(--gold-line);border-bottom:1px solid var(--gold-line);
+}
+.commission{background:linear-gradient(180deg,rgba(4,9,24,.60),rgba(10,22,50,.60))}
+.qualify{
+  background:
+    radial-gradient(700px 360px at 50% 0%, rgba(212,168,67,.22), transparent 70%),
+    linear-gradient(180deg,rgba(14,29,66,.75),rgba(5,11,28,.9));
+  border-top:1px solid var(--gold-line);
+}
+
+/* Headings on dark */
+.section-head h2,.opportunity h2,.proof h2{color:#fff}
+.audience-card h3,.step h3,.reward-card h3,.benefit strong,.proof-card strong{color:#fff}
+
+/* Cards */
+.audience-card,.benefit,.proof-card,.step,.reward-card{
+  background:var(--card);border:1px solid var(--gold-line);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 18px 40px rgba(0,0,0,.28);
+}
+.audience-card:hover,.reward-card:hover{border-color:rgba(232,201,106,.55);box-shadow:0 0 0 1px rgba(232,201,106,.25),0 20px 50px rgba(0,0,0,.45),0 0 40px rgba(212,168,67,.12)}
+.pain-card{border:1px solid var(--gold-line)}
+.commission-card{border-color:var(--gold-line)}
+.commission-card.gold{background:linear-gradient(145deg,rgba(212,168,67,.20),rgba(255,255,255,.035));border-color:rgba(232,201,106,.40)}
+.proof-note{background:linear-gradient(145deg,rgba(212,168,67,.20),rgba(255,255,255,.04));border:1px solid rgba(232,201,106,.35)}
+.pill{border-color:rgba(232,201,106,.28)}
+.op-image img,.proof-photo{border:1px solid rgba(232,201,106,.30);box-shadow:0 0 60px rgba(212,168,67,.12),0 24px 70px rgba(0,0,0,.5)}
+.small-disclaimer{color:#7F90B0}
+.reward-foot{color:#8EA0C0}
+.reward-card div{background:transparent}
+
+/* Footer */
+footer{background:linear-gradient(180deg,rgba(4,9,24,.70),#030717);border-top:1px solid var(--gold-line)}
+
+/* Modal */
+.modal-card{box-shadow:0 35px 90px rgba(0,0,0,.5),inset 0 4px 0 #D4A843}
+.modal-submit{border:0}
+
+
+/* ===== PAIN POINTS: photo slot + Taglish cards ===== */
+.pain-card{min-height:0;padding:0;display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;color:#fff}
+.pain-photo{aspect-ratio:4/3;width:100%;background:linear-gradient(135deg,rgba(26,45,90,.9),rgba(7,16,38,.95));border-bottom:1px solid var(--gold-line);overflow:hidden}
+.pain-photo img{width:100%;height:100%;object-fit:cover}
+.pain-photo-slot{height:100%;margin:12px;height:calc(100% - 24px);border:1.5px dashed rgba(232,201,106,.55);border-radius:14px;display:grid;place-content:center;gap:4px;text-align:center;background:rgba(212,168,67,.05)}
+.pain-photo-slot b{color:var(--gold2);font-size:.8rem;letter-spacing:.06em}
+.pain-photo-slot span{color:#8FA2C4;font-size:.7rem}
+.pain-body{position:relative;padding:24px 26px 28px}
+.pain-body .pain-num{position:static;display:block;margin-bottom:8px;font-family:Poppins,Arial,sans-serif;font-size:.72rem;font-weight:800;letter-spacing:.18em;color:var(--gold2)}
+.pain-card h3{font-size:1.32rem;line-height:1.25;max-width:none}
+.pain-card p{font-size:.84rem;line-height:1.75;margin-top:10px;max-width:none}
+.pain-area{margin-top:26px;padding:30px 34px;border:1px solid rgba(232,201,106,.40);border-radius:22px;display:flex;align-items:center;justify-content:space-between;gap:28px;flex-wrap:wrap;
+  background:radial-gradient(500px 200px at 0% 0%,rgba(212,168,67,.20),transparent 70%),linear-gradient(145deg,rgba(26,45,92,.78),rgba(8,18,42,.9))}
+.pain-area>div{flex:1 1 420px}
+.pain-area h3{color:#fff;font-size:1.6rem;margin:10px 0 8px}
+.pain-area p{color:#B7C2D6;font-size:.88rem;line-height:1.75;max-width:640px}
+@media(max-width:650px){.pain-area{padding:24px 20px}.pain-area .btn{width:100%}}
+
+.pain-photo--natural{aspect-ratio:auto}
+.pain-photo--natural img{height:auto;display:block}
+
+/* ===== OPPORTUNITY (simple) ===== */
+.opp-hero{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.opp-photo img{display:block;width:100%;height:auto;border-radius:22px;border:1px solid rgba(232,201,106,.35);box-shadow:0 24px 60px rgba(0,0,0,.45)}
+.opp-copy h2{font-size:clamp(2.1rem,4vw,3.2rem);color:#fff;margin:14px 0 18px}
+.opp-copy h2 em{background:linear-gradient(135deg,#F7E28F,#E8C96A 45%,#C99A35);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;padding-right:.08em}
+.opp-copy p{font-size:1rem;line-height:1.85}
+.opp-row{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:56px}
+.opp-card{padding:28px;border-radius:20px;border:1px solid var(--gold-line);background:var(--card);box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 14px 34px rgba(0,0,0,.25)}
+.opp-card h3{color:#fff;font-size:1.3rem;margin-bottom:8px}
+.opp-card p{font-size:.86rem;line-height:1.75;color:#9FB1D0}
+.opp-note{max-width:720px;margin:28px auto 0;text-align:center;color:#7F90B0;font-size:.74rem;line-height:1.7}
+@media(max-width:950px){.opp-hero,.opp-row{grid-template-columns:1fr}.opp-hero{gap:36px}}
+
+/* ===== REWARDS REDESIGN ===== */
+.rw-head h2 em{background:linear-gradient(135deg,#F7E28F,#E8C96A 45%,#C99A35);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;padding-right:.08em}
+.rw-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:16px}
+.rw-grid>.rw-card{grid-column:span 3}
+.rw-card{display:flex;flex-direction:column;overflow:hidden;border-radius:22px;border:1px solid var(--gold-line);background:var(--card);box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 18px 40px rgba(0,0,0,.28)}
+.rw-photo{overflow:hidden;background:linear-gradient(135deg,rgba(26,45,90,.9),rgba(7,16,38,.95));border-bottom:1px solid var(--gold-line)}
+.rw-photo img{display:block;width:100%;height:auto}
+.rw-slot{height:calc(100% - 24px);margin:12px;border:1.5px dashed rgba(232,201,106,.55);border-radius:14px;display:grid;place-content:center;gap:4px;text-align:center;background:rgba(212,168,67,.05)}
+.rw-slot b{color:var(--gold2);font-size:.8rem}
+.rw-slot span{color:#8FA2C4;font-size:.7rem}
+.rw-body{padding:22px 24px 26px}
+.rw-tag{display:inline-block;margin-bottom:10px;padding:4px 11px;border-radius:999px;border:1px solid rgba(232,201,106,.4);background:rgba(212,168,67,.1);color:#F1DFA6;font-size:.68rem;font-weight:700}
+.rw-body h3{color:#fff;font-size:1.3rem;line-height:1.25;margin-bottom:8px}
+.rw-body p{font-size:.83rem;line-height:1.7;color:#9FB1D0}
+.rw-grid>.rw-spa{grid-column:span 6;flex-direction:row;border-color:rgba(232,201,106,.45)}
+.rw-spa .rw-photo{flex:1.25;align-self:flex-start;border-bottom:0;border-right:1px solid var(--gold-line)}
+.rw-spa .rw-body{flex:1;align-self:center;padding:30px}
+.rw-spa .rw-body h3{font-size:1.7rem}
+
+.rw-brand{margin-top:16px;display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center;padding:44px;border-radius:26px;border:1px solid rgba(232,201,106,.45);
+  background:radial-gradient(600px 300px at 0% 0%,rgba(212,168,67,.22),transparent 70%),linear-gradient(145deg,rgba(26,45,92,.82),rgba(7,16,38,.92))}
+.rw-brand h3{color:#fff;font-size:clamp(1.6rem,3vw,2.3rem);margin:12px 0 14px}
+.rw-brand p{font-size:.92rem;line-height:1.85;color:#B7C2D6}
+.rw-id{--muted:#68758A;display:flex;align-items:center;gap:18px;padding:24px;border-radius:20px;background:#fff;color:var(--navy);transform:rotate(-2deg);box-shadow:0 24px 60px rgba(0,0,0,.5),0 0 0 6px rgba(232,201,106,.18)}
+.rw-avatar{flex:none;width:76px;height:76px;border-radius:50%;display:grid;place-items:center;background:var(--gold-grad);color:#0A1428;font-weight:800;font-size:.85rem;box-shadow:0 0 0 4px #fff,0 0 0 6px #D4A843}
+.rw-id strong{display:block;font-family:"Playfair Display",serif;font-size:1.4rem;line-height:1.1}
+.rw-id small{display:block;margin:3px 0 8px;color:#B88A25;font-weight:700;font-size:.72rem}
+.rw-id em{display:block;color:var(--muted);font-size:.74rem;line-height:1.5}
+
+@media(max-width:950px){
+  .rw-grid{grid-template-columns:1fr}
+  .rw-grid>.rw-card,.rw-grid>.rw-spa{grid-column:auto}
+  .rw-grid>.rw-spa{flex-direction:column}
+  .rw-spa .rw-photo{align-self:auto;border-right:0;border-bottom:1px solid var(--gold-line)}
+  .rw-brand{grid-template-columns:1fr;padding:34px 26px}
+  .rw-id{max-width:420px}
+}
+@media(max-width:650px){
+  .rw-id{transform:none}
+}
+
+/* ===== PROOF: wide photo on top, text and cards below ===== */
+.proof-grid{grid-template-columns:1fr;gap:44px;align-items:start}
+.proof-grid>div:last-child>p{max-width:760px}
+.proof-stack{grid-template-columns:repeat(3,1fr);align-items:stretch}
+@media(max-width:950px){.proof-stack{grid-template-columns:1fr}}
+
+/* Header partner logo (top right) */
+.nav-partner{display:flex;align-items:center}
+.nav-partner img{height:84px;width:84px;object-fit:contain;display:block}
+.nav-partner-slot{padding:10px 16px;border:1.5px dashed rgba(232,201,106,.55);border-radius:12px;color:var(--gold2);font-size:.72rem;font-weight:700;background:rgba(212,168,67,.05)}
+
+    /* ===== Thank-you popup (after submitting the qualification) ===== */
+    .thanks-card{width:min(520px,100%);text-align:center;padding:46px 38px 34px}
+    .thanks-icon{width:78px;height:78px;margin:0 auto 22px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle,rgba(232,201,106,.30),rgba(212,168,67,.08));border:1px solid rgba(212,168,67,.55);box-shadow:0 0 0 9px rgba(212,168,67,.08),0 0 44px rgba(212,168,67,.28)}
+    .thanks-icon svg{width:36px;height:36px;fill:none;stroke:var(--gold2);stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+    .thanks-card .eyebrow{justify-content:center;color:var(--gold2);letter-spacing:.14em}
+    .thanks-card h2{font-family:'Playfair Display',serif;font-size:clamp(1.9rem,5vw,2.5rem);color:#fff;margin:10px 0 14px;line-height:1.12}
+    .thanks-card h2 em{color:var(--gold2)}
+    .thanks-card p{color:#B9C4DA;font-size:.93rem;line-height:1.75;margin:0 0 12px}
+    .thanks-note{margin:22px 0 26px;padding:14px 16px;border-left:3px solid var(--gold);background:rgba(255,255,255,.05);border-radius:10px;text-align:left;color:#D5DDEC;font-size:.82rem;line-height:1.7}
+    .thanks-note strong{display:block;color:#fff;font-size:.86rem;margin-bottom:3px}
+    .thanks-btn{cursor:pointer;font-family:inherit;font-size:.95rem;width:100%}
+    @media(max-width:620px){.thanks-card{padding:38px 22px 26px}}
+  </style>
+</head>
+
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a href="#top" class="brand" aria-label="Tahanan Natin recruitment home">
+     <img src="https://i.imgur.com/1zmJxPa.png" alt="Tahanan Natin" width="200">
+     <span>TAHANAN NATIN<small>REAL ESTATE PROJECT SELLING</small></span>
+      </a>
+      <div class="nav-partner"><img src="https://i.imgur.com/sPeeLaB.png" alt="InnerSparc"></div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 01 HERO -->
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Cavite Real Estate Recruitment</span>
+          <h1>What if your next <em>income stream</em> starts with real estate?</h1>
+          <p class="hero-lead">
+            Join Tahanan Natin's project-selling team and learn how real estate can become a flexible
+            sideline or a serious income opportunity — without giving up control of your time.
+          </p>
+          <div class="hero-note">
+            <strong>Important:</strong> This is a commission-based opportunity, not a salaried job.
+            Your results depend on your effort, consistency, skills, and successful transactions.
+          </div>
+          <div class="hero-actions">
+            <a href="#qualify" class="btn btn-gold open-modal">See If I'm a Fit <span>→</span></a>
+          </div>
+          <div class="hero-proof">
+            <div><strong>Flexible</strong><span>TIME &amp; SCHEDULE</span></div>
+            <div><strong>Commission</strong><span>PER SUCCESSFUL SALE</span></div>
+            <div><strong>Cavite</strong><span>LOCAL TEAM FOCUS</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-photo">
+            <img src="https://i.imgur.com/e3jmDE6.png" alt="Leniza Pasion, real estate sales agent">
+          </div>
+          <div class="hero-badge">
+            <b>You don't need to have it all figured out.</b>
+            <span>Start with the willingness to learn, work, and follow through.</span>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-cue">SCROLL TO EXPLORE ↓</div>
+    </section>
+
+    <!-- 02 AUDIENCE -->
+    <section class="section audience" id="who">
+      <div class="wrap">
+        <div class="section-head center">
+          <span class="eyebrow">Is this for you?</span>
+          <h2>You might already be closer to becoming an agent than you think.</h2>
+          <p>
+            This opportunity is designed for people who want another path to earn through
+            real estate project selling and are willing to put in the work.
+          </p>
+        </div>
+
+        <div class="audience-grid">
+          <article class="audience-card">
+            <div class="audience-icon">💼</div>
+            <h3>Employees</h3>
+            <p>Want an additional income stream while keeping your current work? Explore real estate as a sideline.</p>
+          </article>
+          <article class="audience-card">
+            <div class="audience-icon">🌏</div>
+            <h3>OFWs on vacation</h3>
+            <p>Have time in the Philippines and want to explore a business or commission-based opportunity?</p>
+          </article>
+          <article class="audience-card">
+            <div class="audience-icon">🎓</div>
+            <h3>Graduates</h3>
+            <p>Starting out and looking for a flexible way to build sales experience and potential income?</p>
+          </article>
+          <article class="audience-card">
+            <div class="audience-icon">📈</div>
+            <h3>Business-minded people</h3>
+            <p>Want to try selling without putting a large amount of capital into inventory or a traditional business?</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 PAIN POINTS -->
+    <section class="section pain" id="pain-points">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Baka pamilyar ito sa'yo</span>
+          <h2>Hindi mo kailangang tiisin ang kulang na kita.</h2>
+          <p>
+            Hindi namin sinasabing yayaman ka agad. Ang gusto naming ipakita ay isa pang paraan na
+            pwede mong pag-aralan, pagsikapan, at palaguin — lalo na kung pakiramdam mo kulang pa rin
+            ang kinikita mo ngayon.
+          </p>
+        </div>
+
+        <div class="pain-grid">
+          <article class="pain-card">
+            <div class="pain-photo">
+              <img src="https://i.imgur.com/OPiaiwJ.png" alt="Babaeng nagtatrabaho sa opisina na nag-iisip kung bakit kulang pa rin ang sweldo" loading="lazy">
+            </div>
+            <div class="pain-body">
+              <span class="pain-num">01</span>
+              <h3>Nagtatrabaho ka na, pero kulang pa rin ang sweldo?</h3>
+              <p>Kayod ka araw-araw, pero pagdating ng sahod, ubos agad sa bills at gastusin. Baka panahon na para humanap ng dagdag na pagkakakitaan.</p>
+            </div>
+          </article>
+
+          <article class="pain-card">
+            <div class="pain-photo">
+              <img src="https://i.imgur.com/WZWvVcn.png" alt="OFW na naghihintay sa airport habang iniisip ang pamilya at pangarap na sariling bahay sa Pilipinas" loading="lazy">
+            </div>
+            <div class="pain-body">
+              <span class="pain-num">02</span>
+              <h3>OFW ka ba na nagbabakasyon sa Pilipinas?</h3>
+              <p>Limitado lang ang oras mo dito. Sulitin ang bakasyon — alamin kung paano ka makakapagsimula ng sideline habang nandito ka sa bansa.</p>
+            </div>
+          </article>
+
+          <article class="pain-card">
+            <div class="pain-photo">
+              <img src="https://i.imgur.com/jvIdHTm.png" alt="Estudyanteng problemado sa pambayad ng graduation fee habang napapaligiran ng mga libro at requirements" loading="lazy">
+            </div>
+            <div class="pain-body">
+              <span class="pain-num">03</span>
+              <h3>Estudyante ka bang graduating na, pero problemado sa pambayad ng graduation fee?</h3>
+              <p>Hirap maghanap ng pambayad sa graduation fee at iba pang gastos? Baka gusto mong mag-consider ng part-time na flexible ang oras — habang natututo ka ng sales.</p>
+            </div>
+          </article>
+
+          <article class="pain-card">
+            <div class="pain-photo">
+              <img src="https://i.imgur.com/rfawnCD.png" alt="Babaeng stressed sa mesa na iniisip ang capital, stock, at negosyong hindi umandar" loading="lazy">
+            </div>
+            <div class="pain-body">
+              <span class="pain-num">04</span>
+              <h3>Nag-business ka na ba — at naloko o natalo?</h3>
+              <p>Naglabas ka ng malaking capital, pero hindi umandar ang negosyo. Dito, project selling ang pag-aaralan mo — walang kailangang bilhing stock o inventory.</p>
+            </div>
+          </article>
+
+          <article class="pain-card">
+            <div class="pain-photo pain-photo--natural">
+              <img src="https://i.imgur.com/YZjwWik.png" alt="Komiks ni Leniza Pasion: mula sa pagod na empleyado tungo sa bagong simula sa real estate" loading="lazy">
+            </div>
+            <div class="pain-body">
+              <span class="pain-num">05</span>
+              <h3>Tumanda ka na sa kakatrabaho — pero wala ka pa ring milyon?</h3>
+              <p>Taon-taon kang nagsisikap, pero parang hindi ka umaabante. Walang garantiya ng yaman, pero pwede mong subukan ang ibang landas na nakadepende sa sipag at diskarte mo.</p>
+            </div>
+          </article>
+
+          <article class="pain-card">
+            <div class="pain-photo pain-photo--natural">
+              <img src="https://i.imgur.com/uV4bw3V.png" alt="Komiks ni Leniza Pasion tungkol sa flexible na oras at pagkakataong magbenta ng real estate" loading="lazy">
+            </div>
+            <div class="pain-body">
+              <span class="pain-num">06</span>
+              <h3>Gusto mo ng flexible na oras, pero ayaw mong mawalan ng totoong oportunidad?</h3>
+              <p>Ikaw ang magpapasya kung kailan ka magpo-prospect at magfo-follow up. Responsibilidad mo ang resulta — pero hawak mo ang oras mo.</p>
+            </div>
+          </article>
+
+          <article class="pain-card">
+            <div class="pain-photo pain-photo--natural">
+              <img src="https://i.imgur.com/J0tM81C.png" alt="Nanay o tatay na pagod sa mesa, iniisip ang dagdag na kita habang present pa rin sa pamilya" loading="lazy">
+            </div>
+            <div class="pain-body">
+              <span class="pain-num">07</span>
+              <h3>Nanay o tatay ka bang gustong kumita nang hindi nalalayo sa pamilya?</h3>
+              <p>Kung kailangan mo ng dagdag na kita pero gusto mo pa ring present sa bahay, pwede mong pag-aralan ang commission-based selling na akma sa schedule mo.</p>
+            </div>
+          </article>
+
+          <article class="pain-card">
+            <div class="pain-photo pain-photo--natural">
+              <img src="https://i.imgur.com/d1PtzCf.png" alt="Babaeng nag-iisip ng sariling bahay habang may mga librong real estate, investing, at financial freedom sa mesa" loading="lazy">
+            </div>
+            <div class="pain-body">
+              <span class="pain-num">08</span>
+              <h3>May pangarap ka bang sariling bahay, pero hirap mag-ipon?</h3>
+              <p>Habang natututo kang magbenta ng mga bahay, mas maiintindihan mo rin kung paano ito pinag-iipunan at binibili — dagdag kaalaman para sa sarili mong pangarap na tahanan.</p>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="pain-area">
+          <div>
+            <span class="eyebrow">Una, saan ka nakatira?</span>
+            <h3>Prayoridad namin ang mga nasa Cavite area.</h3>
+            <p>
+              Bago ka namin i-consider, itatanong muna namin kung saang lugar ka nakatira. Sa loob lang ng
+              area kung saan kami nagre-recruit ng mga ahente — para masuportahan ka nang maayos ng team.
+            </p>
+          </div>
+          <a href="#qualify" class="btn btn-gold open-modal">Sagutan: Saan ka nakatira? <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- BRIDGE -->
+    <section class="bridge">
+      <div class="wrap">
+        <span class="eyebrow">You don't have to start alone</span>
+        <h2>So what does the <em>opportunity</em> actually look like?</h2>
+        <p>Let's make the model clear before you decide whether it's worth exploring.</p>
+      </div>
+    </section>
+
+    <!-- 04 OPPORTUNITY -->
+    <section class="section opportunity" id="opportunity">
+      <div class="wrap">
+        <div class="opp-hero">
+          <div class="opp-photo">
+            <img src="https://i.imgur.com/lDYvcpl.jpeg" alt="Leniza kasama ang mga prospective buyers sa site visit">
+          </div>
+          <div class="opp-copy">
+            <span class="eyebrow">Ang oportunidad</span>
+            <h2>Sideline ngayon. <em>Career</em> kung gugustuhin mo.</h2>
+            <p>
+              Sa project selling, tinutulungan mo ang mga prospective buyers na makita at maintindihan ang mga
+              property project, ginagabayan sila sa proseso, at kumikita ka ng commission kapag natapos ang
+              matagumpay na transaksyon.
+            </p>
+            <p style="margin-top:14px">
+              Pwede itong gawing sideline habang may trabaho ka, at pwede mo ring palakihin sa paglipas ng panahon.
+              Ang puhunan mo? <strong style="color:#fff">Sipag, tiyaga, at willingness na matuto.</strong>
+            </p>
+          </div>
+        </div>
+
+        <div class="opp-row" id="benefits">
+          <article class="opp-card">
+            <h3>Commission-based</h3>
+            <p>Kapag may benta, may commission ka. Hindi ito fixed na sweldo — nakadepende sa effort, tiyaga, at diskarte mo.</p>
+          </article>
+          <article class="opp-card">
+            <h3>Hawak mo ang oras mo</h3>
+            <p>Ikaw ang pipili kung kailan magpo-prospect, magfo-follow up, at haharap sa buyers.</p>
+          </article>
+          <article class="opp-card">
+            <h3>May gabay ng team</h3>
+            <p>Walang inventory na bibilhin, at may training at suporta habang natututo ka ng sales.</p>
+          </article>
+        </div>
+
+        <p class="opp-note">Hindi garantisado ang kita. Ang commission rates, qualifications, incentives, at project assignments ay ipapaliwanag at kukumpirmahin sa recruitment.</p>
+      </div>
+    </section>
+
+    <!-- 05 COMMISSION / TRANSPARENCY -->
+    <section class="section commission">
+      <div class="wrap">
+        <div class="section-head center">
+          <span class="eyebrow">No surprises</span>
+          <h2 style="color:#fff">Let's be clear about how this works.</h2>
+          <p style="color:#B7C2D6">
+            The landing page should attract the right people — not everyone. That starts with transparency.
+          </p>
+        </div>
+
+        <div class="commission-grid">
+          <article class="commission-card gold">
+            <span class="eyebrow">What you can expect</span>
+            <h3>A sales opportunity you can build around your life.</h3>
+            <p>
+              You can explore the role as a sideline or develop it further over time,
+              depending on your availability, effort, skills, and results.
+            </p>
+            <ul>
+              <li>Flexible prospecting and follow-up schedule</li>
+              <li>Real estate project selling environment</li>
+              <li>Training and guidance from the team</li>
+              <li>No inventory to buy — you sell projects, not stock</li>
+              <li>Sales skills you can use in any job or business</li>
+              <li>Potential commissions from successful transactions</li>
+            </ul>
+          </article>
+
+          <article class="commission-card">
+            <span class="eyebrow">What you should know</span>
+            <h3>This is not a fixed-salary job.</h3>
+            <p>
+              There is no guaranteed monthly salary stated on this page. Commission-based
+              earning means results can vary and depend on actual successful sales.
+            </p>
+            <ul>
+              <li>No promise of guaranteed income</li>
+              <li>Effort and consistency matter</li>
+              <li>You must be willing to learn and follow up</li>
+              <li>Actual terms should be discussed before joining</li>
+            </ul>
+            <div class="commission-warning">
+              If you're specifically looking for a fixed salary, this may not be the right opportunity.
+              If you're open to commission-based selling, continue and check your qualifications.
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06 LENIZA / PROOF -->
+    <section class="section proof" id="proof">
+      <div class="wrap proof-grid">
+        <div class="proof-photo">
+          <img src="https://i.imgur.com/RlIQODs.jpeg" alt="Real estate team and community milestone">
+        </div>
+        <div>
+          <span class="eyebrow">The person behind the opportunity</span>
+          <h2 style="color:#fff;margin:14px 0 16px">You're not joining a faceless job post.</h2>
+          <p style="margin-bottom:20px">
+            Leniza's personal brand is built around real estate, clients, sales activity,
+            and the people behind the transactions. Recruitment should feel like an invitation
+            into a working environment — not just a promise on a screen.
+          </p>
+
+          <div class="proof-stack">
+            <div class="proof-card">
+              <strong>Real-world sales environment</strong>
+              <p>See how property selling, client conversations, follow-ups, and team activity fit together.</p>
+            </div>
+            <div class="proof-card">
+              <strong>Recognition &amp; milestones</strong>
+              <p>Use actual achievements, awards, team moments, and verified results as proof — not exaggerated claims.</p>
+            </div>
+            <div class="proof-note">
+              <strong>Why this matters</strong>
+              <p>
+                The strongest recruitment page doesn't just say “you can earn.”
+                It shows the environment, the people, the process, and the work involved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07 HOW IT WORKS -->
+    <section class="section steps" id="steps">
+      <div class="wrap">
+        <div class="section-head center">
+          <span class="eyebrow">Your starting path</span>
+          <h2>Four steps from “I'm curious” to “I'm ready to sell.”</h2>
+          <p>You don't need to know everything before you start. You need to be willing to learn the next step.</p>
+        </div>
+
+        <div class="step-grid">
+          <article class="step">
+            <div class="step-no">01</div>
+            <h3>Check your fit</h3>
+            <p>Tell us where you're based, your age, and whether you're comfortable with a commission-based role.</p>
+          </article>
+          <article class="step">
+            <div class="step-no">02</div>
+            <h3>Get oriented</h3>
+            <p>Understand the projects, sales model, expectations, tools, and basic process before you commit.</p>
+          </article>
+          <article class="step">
+            <div class="step-no">03</div>
+            <h3>Learn &amp; practice</h3>
+            <p>Develop the basics of prospecting, presenting, follow-up, and handling buyer conversations, with training and guidance from the team.</p>
+          </article>
+          <article class="step">
+            <div class="step-no">04</div>
+            <h3>Start prospecting</h3>
+            <p>Put what you learned into action, build conversations, follow up, and work toward successful sales. Start as a sideline, and grow it into more if you stay consistent.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 08 REWARDS / CULTURE -->
+    <section class="section rewards" id="rewards">
+      <div class="wrap">
+        <div class="section-head center rw-head">
+          <span class="eyebrow">Higit pa sa commission</span>
+          <h2>Kapag nagsipag ka, may reward. Kapag nagtagal ka, <em>may pangalan ka na.</em></h2>
+          <p>
+            Sa InnerSparc team, hindi ka lang basta numero. Habang nagbebenta ka, binubuo mo rin ang sarili mong
+            pangalan sa real estate — at may mga reward na naghihintay sa bawat milestone.
+          </p>
+        </div>
+
+        <div class="rw-grid">
+          <article class="rw-card rw-spa">
+            <div class="rw-photo">
+              <img src="https://i.imgur.com/qcs65Kp.jpeg" alt="Ang team habang nagre-relax sa spa at massage day na naka-pink na damit at asul na tuwalya" loading="lazy">
+            </div>
+            <div class="rw-body">
+              <span class="rw-tag">Reward</span>
+              <h3>Spa at massage day</h3>
+              <p>Pahinga na may kasamang team para sa mga nag-perform. Dahil ang sipag, dapat may katumbas na ginhawa.</p>
+            </div>
+          </article>
+
+          <article class="rw-card">
+            <div class="rw-photo">
+              <img src="https://i.imgur.com/JoW4ue5.jpeg" alt="Leniza hawak ang mga award at certificate sa isang recognition event" loading="lazy">
+            </div>
+            <div class="rw-body">
+              <span class="rw-tag">Recognition</span>
+              <h3>Mga award at milestone</h3>
+              <p>Ipinagdiriwang ang bawat achievement mo, para makita ng lahat ang pangalan mo.</p>
+            </div>
+          </article>
+
+          <article class="rw-card">
+            <div class="rw-photo">
+              <img src="https://i.imgur.com/WIPV68J.jpeg" alt="Leniza kasama ang mga kaibigan at kasamahan sa isang selebrasyon" loading="lazy">
+            </div>
+            <div class="rw-body">
+              <span class="rw-tag">Team</span>
+              <h3>Mga kasamang lumalago</h3>
+              <p>Makakasama mo ang mga taong natututo, nagbebenta, at nagse-celebrate kasama ka.</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- PERSONAL BRANDING -->
+        <div class="rw-brand">
+          <div>
+            <span class="eyebrow">Ikaw ang brand</span>
+            <h3>Hindi lang bahay ang binebenta mo. Pangalan mo rin ang binubuo mo.</h3>
+            <p>
+              Bawat site visit, bawat follow-up, at bawat taong natulungan mo ay bahagi ng personal brand mo bilang ahente.
+              Sa gabay ng InnerSparc team, hindi mo kailangang magsimula sa wala — pero ikaw pa rin ang mukha at kuwento ng sarili mong career.
+            </p>
+          </div>
+          <div class="rw-id">
+            <div class="rw-avatar">IKAW</div>
+            <div>
+              <strong>Pangalan Mo</strong>
+              <small>Your Property Consultant</small>
+              <em>Real estate isn't just a job, it's a new chapter.</em>
+            </div>
+          </div>
+        </div>
+
+        <div class="reward-foot">Ang mga reward at incentives ay depende sa kasalukuyang programa ng team/company, qualifications, at availability.</div>
+      </div>
+    </section>
+
+    <!-- 09 QUALIFY -->
+    <section class="qualify" id="qualify">
+      <div class="wrap qualify-box">
+        <span class="eyebrow">Before you apply</span>
+        <h2>Let's see if this opportunity <em>fits you.</em></h2>
+        <p>
+          Recruitment is focused on people within the target area who understand that this is
+          commission-based and are genuinely willing to work, learn, and follow through.
+        </p>
+
+        <div class="qualify-pills">
+          <span class="pill">Cavite area</span>
+          <span class="pill">18+ years old</span>
+          <span class="pill">Commission-based</span>
+          <span class="pill">Willing to learn</span>
+          <span class="pill">Willing to sell</span>
+        </div>
+
+        <button class="btn btn-gold open-modal">Check My Qualifications →</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="foot-grid">
+        <div>
+          <div class="foot-brand">
+            <img src="https://i.imgur.com/1zmJxPa.png" alt="Tahanan Natin">
+            TAHANAN NATIN
+          </div>
+          <p style="margin-top:10px">
+            Recruitment landing page for a commission-based real estate project-selling opportunity.
+            Designed to explain the opportunity clearly before an applicant proceeds.
+          </p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <a href="#opportunity">The Opportunity</a>
+          <a href="#benefits">Benefits</a>
+          <a href="#steps">How It Works</a>
+          <a href="#proof">About the Team</a>
+        </div>
+        <div>
+          <h4>Recruitment</h4>
+          <a href="#qualify" class="open-modal">Check Qualifications</a>
+          <a href="#top">Back to top ↑</a>
+        </div>
+      </div>
+      <div class="copyright">
+        <span>© 2026 TAHANAN NATIN. All rights reserved.</span>
+        <span>Commission-based opportunity · Terms should be confirmed during recruitment.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- QUALIFICATION MODAL -->
+  <div class="modal" id="qualificationModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <button class="close" type="button" aria-label="Close">×</button>
+
+      <div class="modal-top">
+        <span class="eyebrow">Quick qualification</span>
+        <h2 id="modalTitle">Let's see if this <em>fits you.</em></h2>
+        <p>A few quick questions so we can understand your area, situation, and reason for wanting to explore real estate project selling.</p>
+      </div>
+
+      <div class="qualification-steps" aria-label="Qualification progress"><span class="qualification-step-dot active">1</span><span class="qualification-step-dot">2</span><span class="qualification-step-dot">3</span><span class="qualification-step-dot">4</span><span class="qualification-step-dot">5</span><span class="qualification-step-dot">6</span></div>
+
+      <form id="qualificationForm">
+
+        <!-- STEP 1 — LOCATION -->
+        <div class="qualification-step active" data-step="1">
+          <div class="qualification-step-label">Question 1 of 6</div>
+          <h3>📍 Saan ka sa Cavite?</h3>
+          <p>Priority recruitment areas include Cavite locations where the team is actively building its agent network.</p>
+
+          <div class="qualification-options">
+            <label class="qualification-option"><input type="radio" name="area" value="Bacoor">Bacoor</label>
+            <label class="qualification-option"><input type="radio" name="area" value="Imus">Imus</label>
+            <label class="qualification-option"><input type="radio" name="area" value="Kawit">Kawit</label>
+            <label class="qualification-option"><input type="radio" name="area" value="Dasmarinas">Dasmarinas</label>
+            <label class="qualification-option"><input type="radio" name="area" value="General Trias">General Trias</label>
+            <label class="qualification-option"><input type="radio" name="area" value="Tanza">Tanza</label>
+            <label class="qualification-option"><input type="radio" name="area" value="Taguig">Taguig</label>
+            <label class="qualification-option"><input type="radio" name="area" value="Makati">Makati</label>
+            <label class="qualification-option"><input type="radio" name="area" value="Other Cavite area">Other Cavite area</label>
+            <label class="qualification-option"><input type="radio" name="area" value="Outside Cavite">Outside Cavite</label>
+          </div>
+
+          <div class="qualification-nav">
+            <span></span>
+            <button type="button" class="qualification-next">Next →</button>
+          </div>
+        </div>
+
+        <!-- STEP 2 — EXACT LOCATION -->
+        <div class="qualification-step" data-step="2">
+          <div class="qualification-step-label">Question 2 of 6</div>
+          <h3>📍 Malapit ka ba sa Molino, Bacoor?</h3>
+          <p>We currently entertain applicants living near Molino, Bacoor. Please give the exact barangay/address so Leniza can manually review your location.</p>
+
+          <div class="qualification-options">
+            <label class="qualification-option"><input type="radio" name="nearMolino" value="Yes — near Molino, Bacoor">Yes — malapit sa Molino</label>
+            <label class="qualification-option"><input type="radio" name="nearMolino" value="No — not near Molino, Bacoor">No — hindi malapit sa Molino</label>
+          </div>
+
+          <div class="qualification-fields" style="margin-top:14px">
+            <div class="qualification-field full">
+              <label for="exactAddress">Barangay / exact address <span class="required">*</span></label>
+              <textarea id="exactAddress" name="exactAddress" rows="3" placeholder="Hal. Molino IV, Bacoor, Cavite" required></textarea>
+            </div>
+          </div>
+
+          <div class="qualification-nav">
+            <button type="button" class="qualification-prev">← Back</button>
+            <button type="button" class="qualification-next">Next →</button>
+          </div>
+        </div>
+
+        <!-- STEP 3 — AGE + CURRENT SITUATION -->
+        <div class="qualification-step" data-step="3">
+          <div class="qualification-step-label">Question 3 of 6</div>
+          <h3>👤 Tell us a little about your current situation.</h3>
+          <p>This helps us understand where you're coming from before we talk about the opportunity.</p>
+
+          <div class="qualification-fields">
+            <div class="qualification-field">
+              <label for="age">Age <span class="required">*</span></label>
+              <input id="age" name="age" type="number" min="18" max="100" placeholder="18+" required>
+            </div>
+
+            <div class="qualification-field qualification-choice-field">
+              <label>Current situation <span class="required">*</span></label>
+              <div class="qualification-choice-grid situation-grid" role="radiogroup" aria-label="Current situation">
+                <label class="qualification-choice-card"><input type="radio" name="currentSituation" value="Employee looking for a sideline" required><span class="choice-icon">💼</span><span><b>Employee</b><small>Looking for a sideline</small></span></label>
+                <label class="qualification-choice-card"><input type="radio" name="currentSituation" value="OFW / currently working abroad"><span class="choice-icon">🌏</span><span><b>OFW</b><small>Currently abroad</small></span></label>
+                <label class="qualification-choice-card"><input type="radio" name="currentSituation" value="Graduate / starting my career"><span class="choice-icon">🎓</span><span><b>Graduate</b><small>Starting my career</small></span></label>
+                <label class="qualification-choice-card"><input type="radio" name="currentSituation" value="Business owner / entrepreneur"><span class="choice-icon">📈</span><span><b>Business owner</b><small>Entrepreneur</small></span></label>
+                <label class="qualification-choice-card"><input type="radio" name="currentSituation" value="Currently looking for work"><span class="choice-icon">🔎</span><span><b>Looking for work</b><small>Exploring options</small></span></label>
+                <label class="qualification-choice-card"><input type="radio" name="currentSituation" value="Already in real estate"><span class="choice-icon">🏠</span><span><b>Real estate</b><small>Already in the industry</small></span></label>
+                <label class="qualification-choice-card"><input type="radio" name="currentSituation" value="Other"><span class="choice-icon">✦</span><span><b>Other</b><small>Something else</small></span></label>
+              </div>
+            </div>
+          </div>
+
+          <div class="qualification-nav">
+            <button type="button" class="qualification-prev">← Back</button>
+            <button type="button" class="qualification-next">Next →</button>
+          </div>
+        </div>
+
+        <!-- STEP 4 — COMMITMENT -->
+        <div class="qualification-step" data-step="4">
+          <div class="qualification-step-label">Question 4 of 6</div>
+          <h3>💼 What kind of setup are you looking for?</h3>
+          <p>Real estate project selling is commission-based. There is no fixed salary.</p>
+
+          <div class="qualification-options">
+            <label class="qualification-option"><input type="radio" name="commissionAwareness" value="Yes, I understand and I'm open to commission-based earning">Yes, I understand and I'm open to it</label>
+            <label class="qualification-option"><input type="radio" name="commissionAwareness" value="I want to learn more before deciding">I want to learn more first</label>
+            <label class="qualification-option"><input type="radio" name="commissionAwareness" value="No, I'm looking for a fixed salary">No, I'm looking for a fixed salary</label>
+          </div>
+
+          <div class="qualification-choice-section" style="margin-top:16px">
+            <div class="qualification-choice-field">
+              <label>How do you want to start? <span class="required">*</span></label>
+              <div class="qualification-choice-grid start-grid" role="radiogroup" aria-label="How do you want to start">
+                <label class="qualification-choice-card compact"><input type="radio" name="workPreference" value="Sideline / part-time" required><span class="choice-icon">🕒</span><span><b>Sideline</b><small>Part-time</small></span></label>
+                <label class="qualification-choice-card compact"><input type="radio" name="workPreference" value="More serious / fuller commitment"><span class="choice-icon">🚀</span><span><b>More serious</b><small>Fuller commitment</small></span></label>
+                <label class="qualification-choice-card compact"><input type="radio" name="workPreference" value="Not sure yet"><span class="choice-icon">🤔</span><span><b>Not sure yet</b><small>Still exploring</small></span></label>
+              </div>
+            </div>
+
+            <div class="qualification-choice-field" style="margin-top:16px">
+              <label>Hours per week <span class="required">*</span></label>
+              <div class="qualification-choice-grid hours-grid" role="radiogroup" aria-label="Hours per week">
+                <label class="qualification-choice-card compact"><input type="radio" name="hoursPerWeek" value="1–5 hours" required><span class="choice-icon">1–5</span><span><b>hours</b><small>Light start</small></span></label>
+                <label class="qualification-choice-card compact"><input type="radio" name="hoursPerWeek" value="6–10 hours"><span class="choice-icon">6–10</span><span><b>hours</b><small>Steady</small></span></label>
+                <label class="qualification-choice-card compact"><input type="radio" name="hoursPerWeek" value="11–20 hours"><span class="choice-icon">11–20</span><span><b>hours</b><small>Active</small></span></label>
+                <label class="qualification-choice-card compact"><input type="radio" name="hoursPerWeek" value="21+ hours"><span class="choice-icon">21+</span><span><b>hours</b><small>More time</small></span></label>
+              </div>
+            </div>
+          </div>
+
+          <div class="qualification-nav">
+            <button type="button" class="qualification-prev">← Back</button>
+            <button type="button" class="qualification-next">Next →</button>
+          </div>
+        </div>
+
+        <!-- STEP 5 — WHY JOIN -->
+        <div class="qualification-step" data-step="5">
+          <div class="qualification-step-label">Question 5 of 6</div>
+          <h3>🎯 Why do you want to join?</h3>
+          <p>There is no perfect answer. Tell Leniza what you're hoping to get from this opportunity.</p>
+
+          <div class="qualification-fields">
+            <div class="qualification-field full">
+              <label for="whyJoin">Your answer <span class="required">*</span></label>
+              <textarea id="whyJoin" name="whyJoin" rows="5" placeholder="Hal. Gusto ko ng sideline, gusto kong matuto ng sales, o gusto kong mag-explore ng career change..." required></textarea>
+            </div>
+          </div>
+
+          <div class="qualification-nav">
+            <button type="button" class="qualification-prev">← Back</button>
+            <button type="button" class="qualification-next">Next →</button>
+          </div>
+        </div>
+
+        <!-- STEP 6 — CONTACT -->
+        <div class="qualification-step" data-step="6">
+          <div class="qualification-step-label">Question 6 of 6</div>
+          <h3>👋 Last step — how can we reach you?</h3>
+          <p>We received your application and will review your answers.</p>
+
+          <div class="qualification-fields">
+            <div class="qualification-field full">
+              <label for="name">Full name <span class="required">*</span></label>
+              <input id="name" name="fullName" type="text" placeholder="Your name" autocomplete="name" required>
+            </div>
+            <div class="qualification-field">
+              <label for="contact">Mobile number <span class="required">*</span></label>
+              <input id="contact" name="mobile" type="tel" placeholder="09XX XXX XXXX" autocomplete="tel" required>
+            </div>
+            <div class="qualification-field">
+              <label for="email">Email <span class="required">*</span></label>
+              <input id="email" name="email" type="email" placeholder="you@email.com" autocomplete="email" required>
+            </div>
+          </div>
+
+          <input type="hidden" name="utmSource" id="recruitmentUtmSource">
+          <input type="hidden" name="utmMedium" id="recruitmentUtmMedium">
+          <input type="hidden" name="utmCampaign" id="recruitmentUtmCampaign">
+
+          <label class="check">
+            <input type="checkbox" id="qualificationConsent" required>
+            <span>I understand that submitting this form does not guarantee recruitment or income. Actual role terms, commission structure, requirements, and incentives will be discussed with the team.</span>
+          </label>
+
+          <div class="qualification-nav">
+            <button type="button" class="qualification-prev">← Back</button>
+            <button type="submit" class="qualification-submit">Submit My Qualification →</button>
+          </div>
+
+          <div class="qualification-note">
+            <strong>What happens next?</strong> We received your application and will review your answers.
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <div class="modal" id="thankYouModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="thankYouTitle">
+    <div class="modal-card thanks-card">
+      <div class="thanks-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+      </div>
+      <span class="eyebrow">Application received</span>
+      <h2 id="thankYouTitle">Salamat, <em id="thankYouName">there</em>!</h2>
+      <p>Natanggap na namin ang application mo para sa Tahanan Natin × InnerSparc.</p>
+      <p>Ire-review ng team namin ang mga sinagot mo, at sila na mismo ang mag-message sa'yo.</p>
+      <div class="thanks-note">
+        <strong>Wala ka pang kailangang gawin for now.</strong>
+        Nagpadala rin kami ng email sa'yo. Kung wala sa inbox, silipin ang Spam o Promotions folder.
+      </div>
+      <button type="button" class="btn btn-gold thanks-btn" id="thankYouClose">Okay, salamat!</button>
+    </div>
+  </div>
+
+  <script>
+    const modal = document.getElementById('qualificationModal');
+    const openers = document.querySelectorAll('.open-modal');
+    const closeBtn = modal.querySelector('.close');
+    const form = document.getElementById('qualificationForm');
+    const qualificationSteps = Array.from(document.querySelectorAll('.qualification-step'));
+    const qualificationDots = Array.from(document.querySelectorAll('.qualification-step-dot'));
+    let currentQualificationStep = 1;
+
+    function updateQualificationStep(){
+      qualificationSteps.forEach((step,i)=>step.classList.toggle('active',i===currentQualificationStep-1));
+      qualificationDots.forEach((dot,i)=>{
+        dot.classList.toggle('active',i===currentQualificationStep-1);
+        dot.classList.toggle('done',i<currentQualificationStep-1);
+      });
+    }
+
+    function openModal(e){
+      if(e) e.preventDefault();
+      currentQualificationStep=1;
+      form.reset();
+      qualificationSteps.forEach(step=>{
+        step.querySelectorAll('.qualification-option').forEach(opt=>opt.classList.remove('selected'));
+      });
+      updateQualificationStep();
+      modal.classList.add('open');
+      modal.setAttribute('aria-hidden','false');
+      document.body.style.overflow='hidden';
+    }
+
+    function closeModal(){
+      modal.classList.remove('open');
+      modal.setAttribute('aria-hidden','true');
+      document.body.style.overflow='';
+    }
+
+    function selectedValue(name){
+      const el=form.querySelector('input[name="'+name+'"]:checked');
+      return el ? el.value : '';
+    }
+
+    function validateCurrentStep(){
+      const active=qualificationSteps[currentQualificationStep-1];
+
+      if(currentQualificationStep===1 || currentQualificationStep===2){
+        const checked=active.querySelector('input[type="radio"]:checked');
+        if(!checked){
+          alert('Please choose an answer to continue.');
+          return false;
+        }
+        if(currentQualificationStep===2){
+          const address=document.getElementById('exactAddress');
+          if(!address.value.trim()){
+            address.reportValidity();
+            return false;
+          }
+        }
+      }
+
+      if(currentQualificationStep===3){
+        const age=document.getElementById('age');
+        const situation=form.querySelector('input[name="currentSituation"]:checked');
+        if(!age.value || Number(age.value)<18){ age.reportValidity(); return false; }
+        if(!situation){ alert('Please choose your current situation.'); return false; }
+      }
+
+      if(currentQualificationStep===4){
+        const commission=selectedValue('commissionAwareness');
+        const work=form.querySelector('input[name="workPreference"]:checked');
+        const hours=form.querySelector('input[name="hoursPerWeek"]:checked');
+        if(!commission){ alert('Please choose an answer about the commission-based setup.'); return false; }
+        if(!work){ alert('Please choose how you want to start.'); return false; }
+        if(!hours){ alert('Please choose your available hours per week.'); return false; }
+      }
+
+      if(currentQualificationStep===5){
+        const why=document.getElementById('whyJoin');
+        if(!why.value.trim()){ why.reportValidity(); return false; }
+      }
+
+      if(currentQualificationStep===6){
+        const required = active.querySelectorAll('input[required]');
+        for(const field of required){
+          if(!field.checkValidity()){ field.reportValidity(); return false; }
+        }
+      }
+
+      return true;
+    }
+
+    modal.querySelectorAll('.qualification-choice-card').forEach(card=>{
+      card.addEventListener('click',()=>{
+        const group=card.closest('.qualification-choice-grid');
+        if(!group)return;
+        group.querySelectorAll('.qualification-choice-card').forEach(x=>x.classList.remove('selected'));
+        card.classList.add('selected');
+      });
+    });
+
+    modal.querySelectorAll('.qualification-option').forEach(option=>{
+      option.addEventListener('click',()=>{
+        const group=option.closest('.qualification-options');
+        if(!group)return;
+        group.querySelectorAll('.qualification-option').forEach(x=>x.classList.remove('selected'));
+        option.classList.add('selected');
+        const input=option.querySelector('input[type="radio"]');
+        if(input) input.checked=true;
+      });
+    });
+
+    modal.querySelectorAll('.qualification-next').forEach(btn=>btn.addEventListener('click',()=>{
+      if(!validateCurrentStep()) return;
+
+      if(currentQualificationStep===1){
+        const area=selectedValue('area');
+        // Preserve the recovered Cavite chooser while applying the actual
+        // current recruitment rule: near Molino, Bacoor is manually reviewed.
+        if(area === 'Outside Cavite'){
+          alert('Salamat sa interest! Sa ngayon, ang current recruitment screening ay focused muna sa Cavite area.');
+          closeModal();
+          return;
+        }
+      }
+
+      if(currentQualificationStep===2 && selectedValue('nearMolino').startsWith('No')){
+        alert('Salamat sa interest! Sa ngayon, ang agent ay nag-e-entertain muna ng applicants na nakatira malapit sa Molino, Bacoor.');
+        closeModal();
+        return;
+      }
+
+      if(currentQualificationStep===4 && selectedValue('commissionAwareness') === "No, I'm looking for a fixed salary"){
+        alert('Salamat sa pagiging clear. Commission-based ang opportunity na ito at walang fixed salary.');
+        return;
+      }
+
+      if(currentQualificationStep<6){
+        currentQualificationStep++;
+        updateQualificationStep();
+      }
+    }));
+
+    modal.querySelectorAll('.qualification-prev').forEach(btn=>btn.addEventListener('click',()=>{
+      if(currentQualificationStep>1){
+        currentQualificationStep--;
+        updateQualificationStep();
+      }
+    }));
+
+    openers.forEach(el=>el.addEventListener('click',openModal));
+    closeBtn.addEventListener('click',closeModal);
+    modal.addEventListener('click',e=>{if(e.target===modal)closeModal();});
+    document.addEventListener('keydown',e=>{if(e.key==='Escape' && modal.classList.contains('open'))closeModal();});
+
+
+    const thankYouModal=document.getElementById('thankYouModal');
+    const thankYouName=document.getElementById('thankYouName');
+
+    function showThankYou(fullName){
+      const first=(fullName||'').trim().split(/\s+/)[0]||'there';
+      thankYouName.textContent=first;
+      thankYouModal.classList.add('open');
+      thankYouModal.setAttribute('aria-hidden','false');
+      document.body.style.overflow='hidden';
+      document.getElementById('thankYouClose').focus();
+    }
+
+    function hideThankYou(){
+      thankYouModal.classList.remove('open');
+      thankYouModal.setAttribute('aria-hidden','true');
+      document.body.style.overflow='';
+    }
+
+    document.getElementById('thankYouClose').addEventListener('click',hideThankYou);
+    thankYouModal.addEventListener('click',e=>{if(e.target===thankYouModal)hideThankYou();});
+    document.addEventListener('keydown',e=>{if(e.key==='Escape' && thankYouModal.classList.contains('open'))hideThankYou();});
+
+    form.addEventListener('submit',function(e){
+      e.preventDefault();
+      if(!validateCurrentStep()) return;
+
+      const data=Object.fromEntries(new FormData(form).entries());
+      data.utmSource = new URLSearchParams(window.location.search).get('utm_source') || '';
+      data.utmMedium = new URLSearchParams(window.location.search).get('utm_medium') || '';
+      data.utmCampaign = new URLSearchParams(window.location.search).get('utm_campaign') || '';
+
+      const submitButton=form.querySelector('.qualification-submit');
+      submitButton.disabled=true;
+      submitButton.textContent='Sending…';
+
+      if(typeof google !== 'undefined' && google.script && google.script.run){
+        google.script.run
+          .withSuccessHandler(function(result){
+            form.reset();
+            closeModal();
+            showThankYou(data.fullName);
+            submitButton.disabled=false;
+            submitButton.textContent='Submit My Qualification →';
+          })
+          .withFailureHandler(function(err){
+            alert((err && err.message) || 'We could not submit your qualification right now. Please try again.');
+            submitButton.disabled=false;
+            submitButton.textContent='Submit My Qualification →';
+          })
+          .handleRecruitmentQualification(data);
+      } else {
+        alert('The qualification popup is recovered, but it must be opened from the deployed Google Apps Script web app to submit data.');
+        submitButton.disabled=false;
+        submitButton.textContent='Submit My Qualification →';
+      }
+    });
+  </script>
+</body>
+</html>
