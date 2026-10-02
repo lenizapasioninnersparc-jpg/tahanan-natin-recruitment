@@ -1448,7 +1448,7 @@ footer{background:linear-gradient(180deg,rgba(4,9,24,.70),#030717);border-top:1p
     thankYouModal.addEventListener('click',e=>{if(e.target===thankYouModal)hideThankYou();});
     document.addEventListener('keydown',e=>{if(e.key==='Escape' && thankYouModal.classList.contains('open'))hideThankYou();});
 
-    form.addEventListener('submit',function(e){
+    form.addEventListener('submit', async function(e){
       e.preventDefault();
       if(!validateCurrentStep()) return;
 
@@ -1461,23 +1461,24 @@ footer{background:linear-gradient(180deg,rgba(4,9,24,.70),#030717);border-top:1p
       submitButton.disabled=true;
       submitButton.textContent='Sending…';
 
-      if(typeof google !== 'undefined' && google.script && google.script.run){
-        google.script.run
-          .withSuccessHandler(function(result){
-            form.reset();
-            closeModal();
-            showThankYou(data.fullName);
-            submitButton.disabled=false;
-            submitButton.textContent='Submit My Qualification →';
-          })
-          .withFailureHandler(function(err){
-            alert((err && err.message) || 'We could not submit your qualification right now. Please try again.');
-            submitButton.disabled=false;
-            submitButton.textContent='Submit My Qualification →';
-          })
-          .handleRecruitmentQualification(data);
-      } else {
-        alert('The qualification popup is recovered, but it must be opened from the deployed Google Apps Script web app to submit data.');
+      try {
+        const response = await fetch('/api/apply', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data)
+        });
+
+        const result = await response.json().catch(() => ({}));
+        if (!response.ok || !result.success) {
+          throw new Error(result.message || 'We could not submit your qualification right now. Please try again.');
+        }
+
+        form.reset();
+        closeModal();
+        showThankYou(data.fullName);
+      } catch (err) {
+        alert((err && err.message) || 'We could not submit your qualification right now. Please try again.');
+      } finally {
         submitButton.disabled=false;
         submitButton.textContent='Submit My Qualification →';
       }
